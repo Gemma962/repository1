@@ -1,0 +1,43 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+.div-form {
+          display: flex;
+          width: 100%;
+          height:auto;
+          font-family: 'Montserrat';
+          background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+
+}
+
+.form {
+    margin:50px auto 50px auto;
+    padding:15px;
+      width: 40%;
+      border: 1px  groove black;
+      border-radius: 20px;
+
+    }
+
+.btn-primary{
+  display: flex;
+  margin: auto;
+  background-color:#3d3b33;
+  border-color: black;
+  font-weight: bolder;
+}
+
+.btn-primary:hover{
+  background-color: #fcd730;
+  border-color: black;
+}
+
+
+#copy {
+    margin:0;
+    font-weight: lighter;
+    text-align: center;
+
+}

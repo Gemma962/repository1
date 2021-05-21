@@ -1,0 +1,233 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary {
+    color:#f08f11;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius:50%;
+}
+#team {
+  height: auto;
+    background: #ff7b0a00 !important;
+}
+
+.card-title {
+color: black;
+font-family: 'Montserrat';
+
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+
+}
+
+.text-center {
+    text-align: center;
+    background-color: #white;
+    box-shadow: 5px 10px transparent;
+    font-family: 'Montserrat';
+
+
+
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.card-title, .card-text {
+  margin-top: 30px;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #000000; !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #0000000;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#to-be-continued {
+
+      text-align: center;
+        animation: 3s ease-in 1s 1 running loop;
+        font-family: 'Montserrat';
+
+}
+@keyframes loop{
+  from {
+    margin-left: 70%;
+    width: 30%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+ #title1{
+       font-size: 2.50rem;
+   text-align: center;
+   margin-right:90px;
+  margin-top: 50px;
+  margin-bottom:80px;
+  font-family: 'Montserrat';
+
+
+}
+
+.container-soft-skills {
+  margin-left: 80px;
+  margin-bottom:50px;
+}
+
+.btn-outline-warning {
+border-color:#fbf30a;
+color: #fbf30a;
+
+}
+.btn  {
+  margin:1%;
+  font-size: 1.5rem;
+  transition: color .30s ease-in-out,background-color .30s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+}
+
+
+.btn-outline-info{
+  margin-left:200px;
+}
+.btn-outline-light{}
+.btn-outline-dark{}
+
+  .progress-bar {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      background-color: #f7a56a;
+      transition: width .6s ease; }
+
+      .progress {
+          display: flex;
+          height: 1rem;
+          overflow: hidden;
+          font-size: .75rem;
+          background-color: #e9ecef;
+          border-radius: 2.25rem;
+          height: 25px;
+          width: 350px;
+          margin: auto;
+          margin-top: 30px;
+        }

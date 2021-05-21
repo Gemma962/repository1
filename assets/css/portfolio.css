@@ -1,0 +1,90 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+.title {
+  width: 50%;
+  margin: 30px auto 20px auto;
+}
+
+#portfoliotitle {
+  margin:auto;
+  font-style: oblique;
+text-align: center;
+animation-name: animation;
+animation-duration: 3s;
+animation-delay:0;
+
+}
+@keyframes animation{
+ 0% {
+    margin-top: 5%;
+    width: 100%;
+  }
+
+   50% {
+    margin-top: 30%;
+    width: 100%;
+  }
+  100% {
+    background-color:#dc4a0ea6;
+   margin-top: 5%;
+   width: 100%;
+
+ }
+}
+
+.portfolio {
+  width:100%;
+  display: flex;
+  margin-top:70px;
+}
+
+.card {
+  margin: auto;
+    justify-content: space-between;
+    position: relative;
+    display:flex;
+    display: inline-block;
+    flex-direction: row;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+
+.card-img-top {
+  height:200px;
+}
+
+.firstcard{  margin-right:30px;
+
+}
+.card-body:hover {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-color:#fd7e14ba;
+}
+
+.card-title {
+  font-family:'Montserrat';
+  margin-left: 10px;
+ }
+
+.btn-primary {
+  color: black;
+    background-color: #dc3545;
+    border-color:#dc3545 ;
+    margin-left:96px;
+    font-family: 'Montserrat';
+    margin-top:20px;
+
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: #f7f107;
+    border-color:#f7f107;
+}

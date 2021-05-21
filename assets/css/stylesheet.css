@@ -1,0 +1,220 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-image: linear-gradient(top right, #FFFFFF 0%, #AACFEF 100%);
+
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+
+.bg-light {
+  background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.navbar-expand-lg .navbar-nav {
+  display: flex;
+
+}
+
+
+.navbar-brand{
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 36px;
+}
+.navbar-light .navbar-brand:hover {
+    color: rgba(0,0,0,.9);
+    text-decoration: none;
+}
+
+.bi  {
+color: red;
+font-size: 20px;
+}
+
+.container-fluid {
+  display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social-nav {
+  display: flex;
+  width: auto;
+  height: auto;
+  display: flex, inline;
+  margin-right: 20px;
+
+
+}
+
+.social-list{
+    display: flex;
+    list-style-type: none;
+    margin-top:15px;
+
+}
+
+.list{
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  }
+
+
+
+  .list:hover{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#e6f58f;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s;
+  	-moz-transition: all 0.3s;
+  	transition: all 0.3s;
+    }
+
+  .header-container{
+   display: flex;
+   width: 100%;
+   height: auto;
+
+  }
+
+  .about {
+    display: flex;
+    width: 100%;
+    display: flex;
+  }
+
+  .image {
+    display: flex;
+    height: 100%;
+    margin-top:90px;
+    margin-left: 0px;
+    animation-name: circle;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+    animation-delay: 1s;
+    animation-iteration-count:1;
+    animation-fill-mode: none;
+    animation-direction:reverse;
+    }
+    @keyframes circle {
+from {
+  transform: translateX(0%);
+}
+
+to {
+  transform: translateX(50%);
+}
+}
+
+
+.Me {
+  display: flex;
+    width: 330px;
+    height: 415px;
+   position: relative;
+   border-radius: 50%;
+     border: 1px solid white;
+}
+
+  #cit {
+    width: 50%;
+    display: flex;
+    height: auto;
+    margin-top: 112px;
+    margin-left: 35px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 42px;
+      display: flex;
+    }
+
+
+    #carousel-words{
+  display: flex;
+      margin: 60px auto 0px auto;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bolder;
+      font-size: 36px;
+      color: #eb6134;
+
+
+    }
+
+.contact {
+
+          width: 100%;
+          height:160px;
+          margin:auto;
+        justify-content: center;
+
+       }
+
+       a {
+    color: black;
+    text-decoration:none;
+}
+
+a:hover {
+  color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+.button { font-size: 14px;
+  display:block;
+  margin:auto;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #efd25d;
+  border:1px solid black;
+
+}
+
+.button:hover { font-size: 18px;
+  border-radius: 20px;
+  background-color: orange;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+
+#copy{
+  width: 100%;
+  height: auto;
+    font-weight:lighter;
+  text-align: center;
+  margin-bottom: 0px;
+      margin-top: 60px;
+  }
